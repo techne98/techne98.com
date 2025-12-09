@@ -14,13 +14,6 @@ export default defineConfig({
         weights: [400, 500, 700],
         styles: ["normal", "italic"],
       },
-      {
-        provider: fontProviders.fontsource(),
-        name: "DM Sans",
-        cssVariable: "--font-dm-sans",
-        weights: [400, 500, 700],
-        styles: ["normal", "italic"],
-      },
     ],
   },
   vite: {
