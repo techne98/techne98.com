@@ -40,7 +40,7 @@ I've heard a lot of people talk about using LazyGit as a TUI frontend. From what
 
 This is what I'm likely going to check out next to help me improve my workflow.
 
-I also have been meanining to understand rebasing properly and `git rebase -i` to make sure that any commits I make can be maintained more easily in the future.
+I also have been meaning to understand rebasing properly and `git rebase -i` to make sure that any commits I make can be maintained more easily in the future.
 
 I hope you found this post useful.
 
