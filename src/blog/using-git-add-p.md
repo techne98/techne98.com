@@ -3,9 +3,6 @@ title: "Using git add -p for fun (and profit)"
 date: 2025-12-10
 ---
 
-The Git option you might not have heard of (git add -p)
-
-
 Here's the problem: 
 
 You're coding, and in flow state, and you make a lot of changes to a single file. 
