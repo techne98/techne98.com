@@ -2,10 +2,6 @@
 @import "@catppuccin/tailwindcss/mocha.css";
 @plugin '@tailwindcss/typography';
 
-@theme inline {
-    --font-mono: var(--font-monaspace-neon);
-}
-
 pre {
     padding: 0.5rem;
     border-radius: 5px;
