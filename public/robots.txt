@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://techne98.com/sitemap-index.xml
