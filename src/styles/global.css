@@ -2,7 +2,7 @@
 @plugin '@tailwindcss/typography';
 
 pre {
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 5px;
     margin-bottom: 2rem;
 }
