@@ -3,11 +3,13 @@ import "../styles/global.css";
 import Head from "../components/Head.astro";
 import Navbar from "../components/organisms/Navbar.astro";
 import Footer from "../components/organisms/Footer.astro";
+
+const { pageTitle } = Astro.props;
 ---
 
-<html class="dark mocha scroll-smooth" lang="en">
-    <Head />
-    <body class="bg-ctp-mantle text-ctp-text text-lg antialiased">
+<html class="scroll-smooth" lang="en">
+    <Head pageTitle={pageTitle} />
+    <body class="bg-neutral-900 text-amber-50 text-lg antialiased">
         <Navbar />
         <main class="max-w-2xl mx-auto p-6">
             <slot />
