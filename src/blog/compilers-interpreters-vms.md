@@ -22,7 +22,7 @@ For this reason, we invented programming languages, such as Assembly and C.
 
 These programming languages are something that make it easier for *humans* to write instructions for a computer. But as computers can only understand machine code, we need a way to get back to 1s and 0s. 
 
-## Enter compilers
+# Enter compilers
 
 ![](../assets/compiling.png)
 
@@ -42,7 +42,7 @@ This means the compiler has to make sure it outputs the **correct** machine code
 
 This is without even talking about the other work the compiler is doing (optimizations, removing dead code, etc.).
 
-## A detour to LLVM
+# A detour to LLVM
 
 The part of the process described above is usually what a **compiler backend** takes care of. 
 
@@ -74,7 +74,7 @@ The problem is you don't want to, or can't, or don't have the resources to build
 
 So, instead of writing all of these different instructions, you make your programming language compile to LLVM IR.
 
-You just have to target one language, and LLVM handles the conversion to machine code for you. This definitely lowers the barrier of entry for programming language developers and designers!
+You just have to target one language, and LLVM handles optimizations and the conversion to machine code for you. This definitely lowers the barrier of entry for programming language developers and designers!
 
 # The false dichotomy 
 
