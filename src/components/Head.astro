@@ -1,3 +1,7 @@
+---
+const { pageTitle } = Astro.props;
+---
+
 <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
@@ -13,7 +17,7 @@
     <meta property="og:url" content="techne98.com" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <title>techne98 - crafting, learning, sharing</title>
+    <title>{pageTitle} - techne98.com</title>
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link
         rel="alternate"
