@@ -5,11 +5,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  markdown: {
-    shikiConfig: {
-      theme: "catppuccin-macchiato",
-    },
-  },
   vite: {
     plugins: [tailwindcss()],
   },
