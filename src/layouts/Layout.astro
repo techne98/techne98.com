@@ -1,19 +1,43 @@
 ---
 import "../styles/global.css";
 import Head from "../components/Head.astro";
+import Sidebar from "../components/ui/Sidebar.astro";
 import Navbar from "../components/organisms/Navbar.astro";
-import Footer from "../components/organisms/Footer.astro";
 
 const { pageTitle } = Astro.props;
 ---
 
 <html class="scroll-smooth" lang="en">
     <Head pageTitle={pageTitle} />
-    <body class="bg-neutral-900 text-amber-50 text-lg antialiased">
-        <Navbar />
-        <main class="max-w-2xl mx-auto p-6">
-            <slot />
-        </main>
-        <Footer />
+    <body>
+        <div class="container">
+            <Navbar />
+            <Sidebar />
+            <div>
+                <main>
+                    <slot />
+                </main>
+            </div>
+        </div>
     </body>
 </html>
+
+<style>
+    body {
+        background-color: #161616;
+        color: #f5f5f5;
+        font-size: 1.25rem;
+    }
+
+    main {
+        max-width: 896px;
+        padding: 4rem 2rem;
+    }
+
+    @media screen and (min-width: 768px) {
+        .container {
+            display: flex;
+            gap: 4rem;
+        }
+    }
+</style>
