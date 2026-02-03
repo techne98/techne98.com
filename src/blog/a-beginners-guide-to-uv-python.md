@@ -2,6 +2,7 @@
 title: "A Beginner's Guide to the uv Package Manager in Python"
 description: "Rust-powered package management in Python"
 date: 2025-01-29
+tags: ["python", "tools", "tutorial"]
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 title: "OCaml let expressions"
 date: 2025-10-01
+tags: ["ocaml", "programming", "functional"]
 ---
 
 I've been learning about `let` expressions in OCaml, which are not a complex concept but I'm definitely having trouble wrapping my head around them completely. 

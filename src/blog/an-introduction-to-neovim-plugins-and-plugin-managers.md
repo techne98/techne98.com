@@ -2,6 +2,7 @@
 title: "An Introduction to Neovim Plugins and Plugin Managers"
 description: "Everyhing you need to know about using plugins with Neovim"
 date: 2023-08-23
+tags: ["neovim", "tutorial", "tools"]
 ---
 
 If you clicked on this article you're probably already aware that Neovim is a highly customizable and extensible text editor, and you can extend it with user-created plugins.

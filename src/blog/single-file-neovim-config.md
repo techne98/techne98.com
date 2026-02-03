@@ -2,6 +2,7 @@
 title: "Crafting a Single File Neovim Config"
 description: "A pragmatic approach to Neovim configuration"
 date: 2025-01-09
+tags: ["neovim", "lua", "tools"]
 ---
 
 > *One file to rule them all,*

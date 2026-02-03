@@ -3,6 +3,7 @@ title: "Git, Symlinks, and GNU Stow: How To Manage Your Dotfiles"
 description: "Using Stow to manage my dotfiles"
 date: 2024-01-18
 image: "../assets/git-symlinks-and-stow-how-to-manage-your-dotfiles/cover.webp"
+tags: ["git", "dotfiles", "tutorial"]
 ---
 
 I wanted to start managing my dotfiles for two reasons:

@@ -1,6 +1,7 @@
 ---
 title: "Taking more asymmetric bets, and reflections on 2025"
 date: 2025-12-27
+tags: ["career", "philosophy", "personal"]
 ---
 
 The end of 2025 is closing in, and I've been thinking a lot about how I've been spending my time (particularly online).

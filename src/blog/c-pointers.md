@@ -2,6 +2,7 @@
 title: "Understanding Pointers"
 description: "Notes on Pointers from Beej's Guide to C"
 date: 2025-03-01
+tags: ["c", "programming", "tutorial"]
 ---
 
 *These are my notes on pointers in C, mostly from reading [Beej's Guide to C Programming](https://beej.us/guide/bgc/).*

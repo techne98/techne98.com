@@ -2,6 +2,7 @@
 title: "How To Open a New Kitty Tab in Current Working Directory"
 description: "A single Kitty keybind I use a lot"
 date: 2024-01-04
+tags: ["terminal", "tools", "productivity"]
 ---
 
 When I'm using [kitty](https://sw.kovidgoyal.net/kitty/) I often find myself wanting to open a new tab to run a local server for a web app I'm working on, or run some other commands in the same directory I'm currently in.

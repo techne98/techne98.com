@@ -2,6 +2,7 @@
 title: "A Beginner's Guide To Neovim Configuration"
 description: "Learn Neovim the hard way"
 date: 2023-08-21
+tags: ["neovim", "tutorial", "tools"]
 ---
 
 Neovim is a highly customizable and extensible text editor. And although wonderful, it can sometimes be a bit confusing or daunting for newcomers to start configuring.

@@ -1,8 +1,31 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Hero from "../components/organisms/Hero.astro";
 ---
 
 <Layout pageTitle="Home">
-    <Hero />
+    <section>
+        <div class="space-y-8">
+            <p>
+                Hi I'm Jack, a programmer and writer interested in tooling and
+                systems.
+            </p>
+            <p>
+                Check out my <a
+                    href="/blog"
+                    class="text-orange-500 font-medium hover:opacity-80 transition-opacity"
+                    >blog</a
+                > or <a
+                    href="https://youtube.com/@techne98"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-orange-500 font-medium hover:opacity-80 transition-opacity"
+                    >youtube</a
+                >, for my content, and feel free to reach out to me via <a
+                    href="mailto:techne98@proton.me"
+                    class="text-orange-500 font-medium hover:opacity-80 transition-opacity"
+                    >email</a
+                >.
+            </p>
+        </div>
+    </section>
 </Layout>

@@ -2,6 +2,7 @@
 title: "How to host an Astro website on Railway"
 description: "A simple guide on hosting an Astro static site on Railway"
 date: 2025-09-02
+tags: ["astro", "deployment", "tutorial"]
 ---
 
 

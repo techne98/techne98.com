@@ -1,6 +1,7 @@
 ---
 title: "A gentle introduction to machine code, compilers, and LLVM"
 date: 2026-01-08
+tags: ["compilers", "programming", "systems"]
 ---
 
 Most developers have heard about "compiled" and "interpreted" programming languages, although

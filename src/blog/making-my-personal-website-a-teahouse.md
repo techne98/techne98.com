@@ -1,6 +1,7 @@
 ---
 title: "Making my personal website a digital teahouse"
 date: 2026-01-15
+tags: ["design", "web", "personal"]
 ---
 
 

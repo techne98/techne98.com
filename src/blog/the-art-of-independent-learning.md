@@ -2,6 +2,7 @@
 title: "The Art of Independent Learning"
 description: "A self-learner's guide to effective curiosity"
 date: 2025-05-25
+tags: ["learning", "career", "philosophy"]
 ---
 
 ![](../assets/the-art-of-independent-learning/samwell-tarly.jpg)

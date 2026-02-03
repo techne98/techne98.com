@@ -1,6 +1,7 @@
 ---
 title: "Using git add -p for fun (and profit)"
 date: 2025-12-10
+tags: ["git", "workflow", "productivity"]
 ---
 
 Here's the problem: 

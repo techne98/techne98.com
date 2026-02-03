@@ -2,6 +2,7 @@
 title: "Mutating JavaScript Arrays set with const"
 description: "Mutation of JavaScript arrays with const variables"
 date: 2025-08-29
+tags: ["javascript", "programming"]
 ---
 
 Something simple which I've often missed when setting up JavaScript arrays is that if you plan to mutate the array (e.g. with `.push()` or `.pop()`) you can still set the array as `const` to make intentions clear about reassignment. 

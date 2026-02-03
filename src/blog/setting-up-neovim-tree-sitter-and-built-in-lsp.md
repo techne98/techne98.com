@@ -2,6 +2,7 @@
 title: "Setting up Neovim Tree-sitter and Built-in LSP"
 description: "How to set up syntax highlighting and errors in Neovim"
 date: 2023-09-04
+tags: ["neovim", "lsp", "tutorial"]
 ---
 
 In this article we will go into setting up tree-sitter and the built-in LSP in Neovim.

@@ -2,6 +2,7 @@
 title: "Ego, programming, and NG+"
 description: "The similarities of playing Dark Souls and honing your programming skills"
 date: 2025-06-02
+tags: ["programming", "learning", "career"]
 ---
 
 One of my favourite game series is *Dark Souls*.

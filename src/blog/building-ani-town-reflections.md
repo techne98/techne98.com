@@ -2,6 +2,7 @@
 title: "Reflections on building ani.town"
 description: "Building a consumer-facing app with SvelteKit, Supabase, and the AniList API"
 date: 2025-05-08
+tags: ["project", "svelte", "reflection"]
 ---
 
 I recently built out [ani.town](https://ani.town), a website where users can save queries about anime and manga.

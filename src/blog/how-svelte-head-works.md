@@ -2,6 +2,7 @@
 title: "How <svelte:head> works"
 description: "Why you need svelte:head, and other shenanigans"
 date: 2023-11-28
+tags: ["svelte", "web", "tutorial"]
 ---
 
 SvelteKit has special elements, one of which is the `<svelte:head>` tag.

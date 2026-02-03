@@ -1,7 +1,7 @@
 ---
 title: "Why AI divides programmers"
 date: 2026-01-15
-tags: ["ai", "programming"]
+tags: ["ai", "programming", "philosophy"]
 ---
 
 I think the biggest reason that some programmers don't like AI is that they expect determinism, and generative AI is not deterministic.

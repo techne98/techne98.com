@@ -2,6 +2,7 @@
 title: "Creating a Diagnostics Toggle in Neovim"
 description: "Toggle diagnostics on and off in Neovim"
 date: 2024-10-24
+tags: ["neovim", "lua", "lsp"]
 ---
 
 ### The Problem
