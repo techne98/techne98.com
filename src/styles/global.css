@@ -9,8 +9,13 @@ h1 {
 img {
     width: 100%;
 }
+
 pre {
     padding: 1rem;
     border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+hr {
     margin-bottom: 2rem;
 }
