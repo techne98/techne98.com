@@ -3,26 +3,42 @@ title: Can we leverage AI/LLMS for self-learning?
 date: 2026-02-17
 ---
 
+![](../assets/self-education.jpg)
+
 Let me get this out of the way before anything else: 
 
 *I am not a complete AI-fanatic, nor am I some AI hater. I am just a guy, trying
 to use tools and figure out if they are useful or not.*
 
-This will probably likely make me upset people on both sides, but what can you
-do. 
+*This will probably likely make me upset people on both sides, but what can you
+do.*
 
 ---
 
-Whilst everyone is currently going crazy over vibe-coding and whatever the zeitgeist around AI is, I've been experimenting (largely) with AI for learning. 
+While everyone is currently going crazy over vibe-coding and whatever the zeitgeist is, I've been experimenting (largely) with AI for learning. 
 
 The question I generally have is whether or not we can use these tools to learn
-new (technical) concepts, domains, or programming languages effectively.
+new technical concepts, domains, or programming languages effectively.
 
-So, I've been playing around with these tools for a good while trying to use it to actually improve my knowledge.
+The hardest part, in my opinion when programming usually has very little to do
+with the syntax and much more to do with the domain. How does authentication
+work? What is a database "transaction"? What is a language server? What happens
+in the linking process?
 
-Can they help us learn effectively? To immediately ruin the clickbait, my honest answer is **I don't know**. I'm still trying to work it out myself.
+Or, if you're learning a new paradigm (Rust, FP, Lisp), you likely have some
+questions about the idiomatic way to do things.  
+
+I've been playing around with these tools for a good while with the focus
+on using them to actually improve my knowledge, rather than mercilessly
+"vibecode" without bothering to read the output of the prompt I just typed in.
+
+So, can these tools help us learn effectively? To immediately ruin the clickbait, my honest answer is **I'm still trying to work that out myself**.
 
 But I think sharing my thoughts here might be useful to some others.
+
+First I want to talk about my general approach to learning, applying it to AI,
+and then where I think things fall short - whether through the tools, or my own
+learning strategy.
 
 ## Inquiry-based learning
 
@@ -84,4 +100,4 @@ I do think we're moving closer to the goldilocks zone, and I can really see thes
 
 At the same time, I don't want to see traditional resources fade away, and I do think there's room for both. Or, at least I hope there is.
 
-If you have any thoughts on this please comment them below. 
+If you have any thoughts on this I'd be glad to hear them. 
