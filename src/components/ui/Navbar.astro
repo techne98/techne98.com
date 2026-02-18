@@ -1,32 +1,30 @@
-<header>
-    <nav>
-        <ul>
-            <li>
-                <a href="/">home</a>
-            </li>
-            <li>
-                <a href="/blog">blog</a>
-            </li>
-            <li>
-                <a href="/projects">projects</a>
-            </li>
-            <li>
-                <a href="mailto:techne98@proton.me">contact</a>
-            </li>
-        </ul>
+<header class="p-4">
+    <nav class="max-w-4xl mx-auto nav-wrapper">
+        <div class="flex items-center gap-2">
+            <a class="text-xl flex gap-2 items-center" href="/">
+                <img class="flex-1 pfp w-10 h-10 rounded-full" src="/cat.png" />
+               Jack Smith 
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="/blog">Writing</a>
+            <a href="mailto:techne98@proton.me">Contact</a>
+        </div>
     </nav>
 </header>
 
 <style>
-    header {
-        max-width: 36rem;
-        margin: 0 auto;
-        padding: 2rem;
-    }
+header {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border-bottom: 2px solid #e8e6e1;
+    position: sticky;
+    top: 0;
+}
 
     a {
-        font-weight: 500;
-        color: rgb(243 244 246);
+        font-size: 1.25rem;
+        font-weight: 700;
     }
 
     a {
@@ -38,16 +36,25 @@
         color: rgb(249 115 22);
     }
 
-    ul {
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .nav-links {
         display: flex;
         gap: 2rem;
-        align-items: center;
+    }
+
+    .pfp {
+        border: 2px solid #f97316;
     }
 
     @media (max-width: 640px) {
-        ul {
+        .nav-wrapper {
             flex-direction: column;
-            gap: 1rem;
             align-items: flex-start;
         }
     }

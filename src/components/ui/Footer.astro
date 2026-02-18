@@ -1,24 +1,37 @@
 <footer>
-    <hr class="max-w-lg mx-auto border-t border-stone-600 mb-4" />
     <div class="content">
-        <p class="text-neutral-400 font-medium">&copy; techne98 2026.</p>
-        <p
-            class="text-neutral-400 font-medium hover:text-orange-500 hover:underline"
-        >
+        <p>&copy; techne98 2026.</p>
+        <div class="footer-links">
             <a
                 href="https://github.com/techne98"
                 target="_blank"
-                rel="noopenner noreferrer">github</a
+                rel="noopenner noreferrer">GitHub</a
             >
-        </p>
+            <a
+                href="https://youtube.com/@techne98"
+                target="_blank"
+                rel="noopenner noreferrer">YouTube</a
+            >
+        </div>
     </div>
 </footer>
 
 <style>
+    footer {
+        background-color: #fafaf8;
+        color: #555555;
+        border-top: 2px solid #e8e6e1;
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 2rem;
+    }
+
     .content {
-        max-width: 36rem;
+        max-width: 56rem;
         margin: 0 auto;
-        padding: 0 2rem 4rem 2rem;
+        padding: 2rem 1rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
