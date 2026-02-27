@@ -1,36 +1,28 @@
 ---
-title: Can we leverage AI/LLMS for self-learning?
+title: Leveraging AI for self-learning
 date: 2026-02-17
 ---
 
 ![](../assets/self-education.jpg)
 
-Let me get this out of the way before anything else: 
-
-*I am not a complete AI-fanatic, nor am I some AI hater. I am just a guy, trying
-to use tools and figure out if they are useful or not.*
-
-*This will probably likely make me upset people on both sides, but what can you
-do.*
-
----
-
-While everyone is currently going crazy over vibe-coding and whatever the zeitgeist is, I've been experimenting (largely) with AI for learning. 
+While everyone has been going crazy over vibe-coding, I've been largely experimenting with AI for learning.
 
 The question I generally have is whether or not we can use these tools to learn
 new technical concepts, domains, or programming languages effectively.
 
-The hardest part, in my opinion when programming usually has very little to do
-with the syntax and much more to do with the domain. How does authentication
+The hardest part when programming, in my opinon, usually has very little to do
+with the syntax and much more to do with the domain. 
+
+How does authentication
 work? What is a database "transaction"? What is a language server? What happens
 in the linking process?
 
-Or, if you're learning a new paradigm (Rust, FP, Lisp), you likely have some
+Or, if you're learning a new programming paradigm (e.g. Rust, FP, Lisp), you likely have some
 questions about the idiomatic way to do things.  
 
-I've been playing around with these tools for a good while with the focus
-on using them to actually improve my knowledge, rather than mercilessly
-"vibecode" without bothering to read the output of the prompt I just typed in.
+I've been playing around with these tools for a good while attempting to do some
+of these things, with the focus on using them to actually improve my knowledge
+rather than mercilessly vibecoding.
 
 So, can these tools help us learn effectively? To immediately ruin the clickbait, my honest answer is **I'm still trying to work that out myself**.
 
@@ -82,7 +74,7 @@ However, using them alongside other resources, or as a fellow code reviewer, ass
 
 I've recently been coding Neovim plugins by reading the documentation the best I can, and using AI to help me if I get stuck on how a certain API works or what I'm doing wrong. 
 
-I think the issue is thouh it makes me think two things: 
+I think the issue is though it makes me think two things: 
 - Am I being a bad programmer by asking the AI to find an API instead of digging through the source code myself? 
 - Am I actually **harming** the learning process for myself at all?
 
@@ -100,4 +92,4 @@ I do think we're moving closer to the goldilocks zone, and I can really see thes
 
 At the same time, I don't want to see traditional resources fade away, and I do think there's room for both. Or, at least I hope there is.
 
-If you have any thoughts on this I'd be glad to hear them. 
+If you have any thoughts on this I'd be glad to hear them.
