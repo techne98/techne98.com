@@ -9,9 +9,9 @@ const { pageTitle } = Astro.props;
 
 <html class="scroll-smooth" lang="en">
     <Head pageTitle={pageTitle} />
-    <body class="bg-stone-900 text-neutral-200">
+    <body class="bg-stone-900 text-neutral-200 flex flex-col min-h-screen">
         <Navbar />
-        <div class="container">
+        <div class="container flex-grow">
             <main>
                 <slot />
             </main>

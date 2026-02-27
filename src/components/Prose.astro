@@ -8,7 +8,7 @@
 
 <style>
 .prose-content {
-        --prose-headings: #1a1a1a;
+        --prose-headings: #f5f5f5;
         --tw-prose-links: #f97316;
         --tw-prose-code: rgb(239 68 68);
     }
@@ -68,8 +68,9 @@
 }
 
 .prose-content :global(p code) {
-    background-color: #fafaf8;
-    color: red;
+    background-color: rgba(255 255 255 / 0.1);
+    color: #ff6b6b;
+    border: 1px solid rgba(255 255 255 / 0.2);
 }
 
     .prose-content :global(code) {
@@ -81,7 +82,7 @@
     }
 
     .prose-content :global(pre) {
-        background-color: #fafaf8;
+        background-color: #1a1a1a;
         padding: 1rem;
         border-radius: 0.5rem;
         overflow-x: auto;

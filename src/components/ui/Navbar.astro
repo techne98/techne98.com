@@ -1,55 +1,63 @@
-<header class="p-4">
-    <nav class="max-w-4xl mx-auto nav-wrapper">
-        <div class="flex items-center gap-2">
-            <a class="text-xl flex gap-2 items-center" href="/">
-                <img class="flex-1 pfp w-10 h-10 rounded-full" src="/cat.png" />
-               Jack Smith 
-            </a>
-        </div>
+<header>
+    <nav>
+        <a class="home-link" href="/">
+            <img class="pfp w-10 h-10 rounded-full object-cover flex-shrink-0" src="/pfp.jpg" />
+        </a>
         <div class="nav-links">
-            <a href="/blog">Writing</a>
+            <a href="/blog">Blog</a>
             <a href="mailto:techne98@proton.me">Contact</a>
+            <a href="https://github.com/techne98">GitHub</a>
         </div>
     </nav>
 </header>
 
 <style>
-header {
-    background-color: #ffffff;
-    color: #1a1a1a;
-    border-bottom: 2px solid #e8e6e1;
-    position: sticky;
-    top: 0;
-}
-
-    a {
-        font-size: 1.25rem;
-        font-weight: 700;
+    header {
+        background-color: #1a1a1a;
+        color: #f5f5f5;
+        border-bottom: 2px solid #333333;
+        position: sticky;
+        top: 0;
+        padding: 1rem;
     }
 
-    a {
-        transition: color 0.2s ease;
-    }
-
-    a:hover {
-        text-decoration: underline;
-        color: rgb(249 115 22);
-    }
-
-    .nav-wrapper {
+    nav {
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 0rem 2rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 2rem;
     }
 
+    .home-link {
+        display: flex;
+        align-items: center;
+    }
+
+    a {
+        color: #f5f5f5;
+        transition: color 0.2s ease;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #f97316;
+    }
+
     .nav-links {
         display: flex;
+        align-items: center;
         gap: 2rem;
+        font-weight: 400;
     }
 
     .pfp {
         border: 2px solid #f97316;
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
     }
 
     @media (max-width: 640px) {
@@ -58,5 +66,4 @@ header {
             align-items: flex-start;
         }
     }
-
 </style>
